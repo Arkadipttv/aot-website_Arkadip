@@ -16,7 +16,7 @@ import TopAppBar from "../components/TopAppBar/TopAppBar";
 import getTheme from "../Theme";
 import { useEffect } from "react";
 import Footer from "../components/Footer/Footer";
-import image5 from "../assets/images/image_5.png";
+import images_faculty from "../assets/images/images_faculty.jpg";
 import facultyList from "../assets/data/faculty.json";
 import NavBarItems from "../data/NavBarItems";
 
@@ -63,7 +63,7 @@ export default function DepartmentPage() {
         }}
       >
         <img
-          src={image5}
+          src={images_faculty}
           alt={"Alt"}
           style={{
             width: "100%",
